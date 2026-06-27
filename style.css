@@ -1,0 +1,154 @@
+.hero-slider{
+    height:600px;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+	animation: slideShow 25s infinite;
+}
+.hero-slider h1{
+    color:white;
+    font-size:50px;
+    font-weight:bold;
+    margin:0;
+}
+ @keyframes slideShow{
+        0%{background-image:url('valve1.jpg.jpg');}
+		 20%{background-image:url('valve2.jpg.jpg');}
+		 40%{background-image:url('valve3.jpg.jpg');}
+		  60%{background-image:url('valve4.jpg.jpg');}
+		  80%{background-image:url('valve5.jpg.jpg');}
+		 100%{background-image:url('valve1.jpg.jpg');}
+	}
+
+#ball-valves{
+	    min-height:600px;
+		background-image:url('ballvalve2.jpg.jpg');
+		background-size:cover;
+		background-position:center;
+    }
+	#check-valves{
+	    min-height:600px;
+		background-image:url('checkvalve1.jpg.jpg');
+		background-size:cover;
+		background-position:center;
+    }
+	#gate-valves{
+	    min-height:600px;
+		background-image:url('gatevalve2.jpg.jpg');
+		background-size:cover;
+		background-position:center;
+    }
+	#globe-valves{
+	    min-height:600px;
+		background-image:url('globevalve1.jpg.jpg');
+		background-size:cover;
+		background-position:center;
+    }
+	#butterfly-valves{
+	    min-height:600px;
+		background-image:url('butterflyvalve1.jpg.jpg');
+		background-size:cover;
+		background-position:center;
+    }
+    
+	#strainers{
+	    min-height:600px;
+		background-image:url('strainer4.jpg.jpg');
+		background-size:cover;
+		background-position:center;
+    }
+	#steam-traps{
+	    min-height:600px;
+		background-image:url('steamtrap1.jpg.jpg');
+		background-size:cover;
+		background-position:center;
+    }
+	#sight-glasses{
+	    min-height:600px;
+		background-image:url('sightglass1.jpg.jpg');
+		background-size:cover;
+		background-position:center;
+    }
+	#product-gallery{
+		min-height:600px;
+		background-size:cover;
+		background-position:center;
+		 animation: slideShow 25s infinite;
+    }
+    @keyframes slideShow{
+        0%{background-image:url('shop.jpg.jpg');}
+		 20%{background-image:url('gatevalve3.jpg.jpg');}
+		 40%{background-image:url('checkvalve3.jpg.jpg');}
+		  60%{background-image:url('globevalve4.jpg.jpg');}
+		  80%{background-image:url('ballvalve1.jpg.jpg');}
+		 100%{background-image:url('shop.jpg.jpg');}
+	}
+	.gallery-section{
+    padding:50px 20px;
+    text-align:center;
+    }
+
+    .gallery-text{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    }
+
+    .gallery-text img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    transition:0.3s;
+    }
+
+    .gallery-text img:hover{
+    transform:scale(1.05);
+    }
+    
+	html {
+    scroll-behavior: smooth;
+    }
+	.call-float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:90px;
+    right:20px;
+    background:#007BFF;
+    color:white;
+    border-radius:50%;
+    text-align:center;
+    line-height:60px;
+    font-size:28px;
+    text-decoration:none;
+    z-index:1000;
+} 
+    nav{background:#2C3E50;padding:10px;text-align:top}
+    nav a{color:white;margin:0 15px;text-decoration:none}
+	
+	.catalog-btn{
+    display:inline-block;
+    padding:12px 28px;
+    margin:8px;
+    background:#003366;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:16px;
+    font-weight:600;
+    transition:0.3s ease;
+    }
+
+    .catalog-btn:hover{
+    background:#0055aa;
+    transform:translateY(-2px);
+    }
+
+    .catalog-btn i{
+    margin-right:8px;
+    }
