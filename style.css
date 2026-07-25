@@ -152,4 +152,25 @@
     .catalog-btn i{
     margin-right:8px;
     }
+.menu-btn{
+    display:none;
+    font-size:30px;
+    color:white;
+    cursor:pointer;
+}
+
+@media (max-width:768px){
+
+.menu-btn{
+    display:block;
+}
+
+nav a{
+    display:none;
+}
+
+nav.active a{
+    display:block;
+    padding:12px;
+}
 footer{background:#2C3E50;color:#fff;text-align:center;padding:10px}
